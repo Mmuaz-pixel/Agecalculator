@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js"></script>
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="css_grid">
+      <div class="block">
+        <p class="input_text">Day</p>
+        <input type="text" class="input" id="day" onchange="change()" placeholder="DD">
+        <p class="warning" id="dayswarning"></p>
+      </div>
+      <div class="block">
+        <p class="input_text">Month</p>
+        <input type="text" class="input" id="month" onchange="change()" placeholder="MM">
+        <p class="warning" id="monthswarning"></p>
+      </div>
+      <div class="block">
+        <p class="input_text">Year</p>
+        <input type="text" class="input" id="year" onchange="change()" placeholder="YYYY">
+        <p class="warning" id="yearswarning"></p>
+      </div>
+    </div>
+    <div id="line_logo">
+      <div id="line"></div>
+      <div class="image">
+        <img src="./assets/images/favicon-32x32.png" alt="">
+      </div>
+    </div>
+
+    <div id="results">
+      <p id="years"> - - </p> Years <br>
+      <p id="months"> - - </p> Months <br>
+      <p id="days"> - - </p> Days <br>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Muhammad Muaz</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url("./assets/fonts/Poppins-Bold.ttf");
+
+body {
+    background-color: #c2c0c0
+}
+
+.main {
+    box-sizing: border-box;
+    margin: 15vh 20vw;
+    height: 70vh;
+    width: 60vw;
+    background-color: white;
+    border-radius: 20px 20px 150px 20px;
+    padding: 5vh 5vw;
+}
+
+.css_grid {
+    margin-right: 10vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1vw;
+    position: relative;
+}
+
+.input_text {
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+}
+
+.block input {
+    padding: 10px;
+    width: 100px;
+    height: 25px;
+}
+
+.warning {
+    color: red;
+}
+
+#line_logo {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: end;
+}
+
+#line {
+    height: 1px;
+    background-color: grey;
+    width: 45vw;
+    position: absolute;
+    display: inline;
+}
+
+.image img{
+    width: 50px;
+}
+
+#results 
+{
+    margin-top: -10px;
+    font-size: 3.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#results p {
+    display: inline;
+    color: rgb(154, 4, 154);
+}
